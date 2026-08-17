@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<link rel="icon" type="image/jpeg" href="logo2.jpg">
+    
+    <link rel="apple-touch-icon" href="logo2.jpg">
+
+    <!-- ملف صورة المشاركة بهوية رَص بجانب index.html -->
+    <meta property="og:image" content="https://rasa-events-1.netlify.app/logo2.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://rasa-events-1.netlify.app/">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====== SEO الأساسي ====== -->
+    <meta name="description" content="شركة رَص لتنظيم الفعاليات والمؤتمرات في المملكة العربية السعودية. شريكك المتكامل لإدارة الحشود، تنظيم المؤتمرات، استقبال كبار الضيوف (VIP)، والتنقل الرسمي بسيارات فاخرة — من الفكرة إلى التنفيذ.">
+    <meta name="keywords" content="تنظيم فعاليات, إدارة حشود, تنظيم مؤتمرات, استقبال كبار الشخصيات, رص, جازان, السعودية, تشريفات, مراسم">
+    <meta name="author" content="شركة رَص لتنظيم الفعاليات والمؤتمرات">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#050505">
+    <!-- ⚠️ غيّر هذا الرابط لرابط موقعك الرسمي بعد النشر -->
+    <link rel="canonical" href="https://www.rass.sa/">
+
+    <!-- ====== مشاركة على فيسبوك / واتساب (Open Graph) ====== -->
+    <meta property="og:title" content="شركة رَص لتنظيم الفعاليات والمؤتمرات">
+    <meta property="og:description" content="شريكك المتكامل لتنظيم الفعاليات واستقبال كبار الضيوف. نصنع الفارق بطرق مبتكرة وتقنيات حديثة من الفكرة إلى التنفيذ.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_SA">
+    <meta property="og:site_name" content="رَص | Rass">
+
+    <!-- ====== مشاركة على منصة X (Twitter Card) ====== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Rasa20300">
+    <meta name="twitter:title" content="شركة رَص لتنظيم الفعاليات والمؤتمرات">
+    <meta name="twitter:description" content="شريكك المتكامل لتنظيم الفعاليات واستقبال كبار الضيوف. من الفكرة إلى التنفيذ.">
+    <!-- ⚠️ نفس الصورة الحقيقية بمقاس 1200×630 -->
+    <meta name="twitter:image" content="https://www.rass.sa/og-image.jpg">
+
+    <title>شركة رَص لتنظيم الفعاليات والمؤتمرات | Rass</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- تحميل الخطوط بدون حجب عرض الصفحة (أسرع ظهور للمحتوى) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Cairo:wght@700;900&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Cairo:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Cairo:wght@700;900&display=swap" rel="stylesheet"></noscript>
+
+    <!-- ====== Google Analytics (GA4) ======
+         ⚠️ استبدل G-XXXXXXXXXX برقم القياس (Measurement ID) الخاص بك من حساب Google Analytics -->
+    <script>
+        // تحميل Google Analytics بعد اكتمال الصفحة حتى لا يبطئ الظهور الأول
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+        window.addEventListener('load', function () {
+            var ga = document.createElement('script');
+            ga.async = true;
+            ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+            document.head.appendChild(ga);
+        });
+    </script>
+
+    <style>
+        :root {
+            --bg-color: #050505;
+            --accent-color: #8c1c2b; 
+            --accent-glow: #ff2a46;
+            --text-light: #ffffff;
+            --text-gray: #a0a0a0;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --font-main: 'Tajawal', sans-serif;
+            --font-luxury: 'Cairo', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+            color-scheme: dark;
+        }
+
+        h1, h2, h3, h4, p { overflow-wrap: break-word; }
+
+        /* حتى لا تختفي العناوين خلف الشريط الثابت عند الضغط على روابط القائمة */
+        section[id], header[id], footer[id] { scroll-margin-top: 95px; }
+
+        ::selection { background: rgba(255, 42, 70, 0.35); color: #fff; }
+
+        /* إتاحة التركيز بلوحة المفاتيح (Accessibility) */
+        a:focus-visible,
+        button:focus-visible,
+        .form-control:focus-visible,
+        .lang-btn:focus-visible {
+            outline: 2px solid var(--accent-glow);
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+
+        .visually-hidden {
+            position: absolute; width: 1px; height: 1px;
+            padding: 0; margin: -1px; overflow: hidden;
+            clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+        }
+
+        /* كرات ضوئية في الخلفية */
+        .ambient-glow {
+            position: fixed; top: 20%; left: 10%;
+            width: 400px; height: 400px;
+            background: radial-gradient(circle, rgba(140,28,43,0.3) 0%, rgba(0,0,0,0) 68%);
+            border-radius: 50%; z-index: -1;
+            animation: float 10s infinite alternate ease-in-out;
+        }
+        .ambient-glow-2 {
+            position: fixed; bottom: 10%; right: 10%;
+            width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(255,42,70,0.15) 0%, rgba(0,0,0,0) 68%);
+            border-radius: 50%; z-index: -1;
+            animation: float 12s infinite alternate-reverse ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(50px, 50px) scale(1.2); }
+        }
+
+        /* Navbar */
+        .navbar.scrolled { background-color: rgba(5, 5, 5, 0.85); }
+        .navbar {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 5%; background-color: rgba(5, 5, 5, 0.6);
+            backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--glass-border);
+            position: fixed; width: 100%; top: 0; z-index: 1000;
+            transition: all 0.4s ease;
+        }
+        .logo a {
+            font-family: var(--font-luxury);
+            font-weight: 900; font-size: clamp(1.7rem, 1.4vw + 1.1rem, 2.2rem); letter-spacing: 0;
+            background: linear-gradient(45deg, #fff, var(--accent-glow));
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+            text-decoration: none; display: inline-block;
+        }
+        .nav-links { list-style: none; display: flex; gap: 20px; align-items: center; }
+        .nav-links a { color: var(--text-light); text-decoration: none; font-weight: 700; transition: color 0.3s; font-size: 0.95rem; }
+        .nav-links a:hover,
+        .nav-links a.active { color: var(--accent-glow); }
+        
+        .lang-btn {
+            background: transparent; border: 1px solid var(--glass-border);
+            color: #fff; padding: 5px 15px; border-radius: 20px;
+            cursor: pointer; font-family: inherit; font-weight: bold;
+            transition: all 0.3s;
+        }
+        .lang-btn:hover { border-color: var(--accent-glow); color: var(--accent-glow); }
+
+        /* زر القائمة للجوال (Hamburger) */
+        .hamburger {
+            display: none; flex-direction: column; gap: 6px;
+            background: none; border: none; cursor: pointer;
+            padding: 6px; z-index: 1001;
+        }
+        .hamburger span {
+            width: 26px; height: 2px; background: #fff; border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        .hamburger.open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+        .hamburger.open span:nth-child(2) { opacity: 0; }
+        .hamburger.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh; min-height: 100svh;
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; padding: 130px 20px 70px; position: relative;
+        }
+        .hero-content { max-width: 900px; z-index: 1; }
+        .hero h1 {
+            font-size: clamp(2.1rem, 4.2vw + 0.9rem, 4.5rem);
+            margin-bottom: 25px; font-weight: 900; line-height: 1.25;
+            text-wrap: balance;
+        }
+        .hero p {
+            font-size: clamp(1.05rem, 1vw + 0.75rem, 1.4rem);
+            color: var(--text-gray); margin: 0 auto 40px auto; max-width: 760px;
+        }        
+        .btn {
+            background: linear-gradient(45deg, var(--accent-color), var(--accent-glow));
+            color: var(--text-light); padding: 18px 40px; text-decoration: none;
+            font-weight: 700; font-size: 1.1rem; border-radius: 50px;
+            display: inline-block; transition: all 0.3s; border: none;
+            box-shadow: 0 10px 30px rgba(140, 28, 43, 0.4); border: 1px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer; font-family: inherit;
+        }
+        .btn:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(255, 42, 70, 0.6); }
+        .btn:active { transform: translateY(-1px); }
+
+        /* --- Scrollytelling 3D Dotted Effect --- */
+        .scrolly-container {
+            position: relative;
+            height: 250vh; 
+            background: linear-gradient(to bottom, #050505, #000000, #050505);
+        }
+        .scrolly-sticky {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            perspective: 1000px; /* ضروري لعمل الـ 3D */
+        }
+        
+        .scrolly-word-3d {
+            font-family: var(--font-luxury);
+            font-weight: 900;
+            font-size: min(22vw, 34vh);
+            line-height: 1;
+            
+            /* التدرج اللوني بين الأحمر والأبيض */
+            background: linear-gradient(135deg, #ff2a46 20%, #ffffff 80%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+
+            /* تأثير النقاط (Dotted) */
+            -webkit-mask-image: radial-gradient(circle, black 40%, transparent 40%);
+            -webkit-mask-size: 14px 14px;
+            mask-image: radial-gradient(circle, black 40%, transparent 40%);
+            mask-size: 14px 14px;
+
+            /* توهج الـ 3D */
+            filter: drop-shadow(0 15px 35px rgba(255, 42, 70, 0.5));
+            position: absolute;
+            z-index: 1;
+            user-select: none;
+            
+            /* تفعيل الـ 3D */
+            transform-style: preserve-3d;
+            will-change: transform;
+        }
+
+        .scrolly-content-wrapper {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 650px;
+            padding: 0 18px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .scrolly-slide {
+            position: absolute;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1), transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            width: 100%;
+            padding: clamp(22px, 4vw, 35px);
+            background: rgba(5, 5, 5, 0.6);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+        }
+        .scrolly-slide.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .scrolly-slide h3 {
+            font-family: var(--font-luxury);
+            font-size: clamp(1.6rem, 2vw + 0.9rem, 2.4rem);
+            color: #fff;
+            margin-bottom: 15px;
+            font-weight: 900;
+            background: linear-gradient(45deg, #ffffff, var(--accent-glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .scrolly-slide p {
+            color: var(--text-gray);
+            font-size: clamp(1rem, 0.7vw + 0.8rem, 1.2rem);
+            font-weight: 500;
+        }
+        /* ------------------------------------------- */
+
+        /* قسم الإحصائيات (Stats) */
+        .stats-section {
+            padding: 70px 5%;
+            background: rgba(0,0,0,0.3);
+            border-top: 1px solid var(--glass-border);
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+            gap: 30px; max-width: 1100px; margin: 0 auto; text-align: center;
+        }
+        .stat-item { padding: 20px 15px; }
+        .stat-number {
+            display: block; font-family: var(--font-luxury); font-weight: 900;
+            font-size: clamp(2.3rem, 2.6vw + 1.2rem, 3.6rem); line-height: 1; margin-bottom: 12px;
+            background: linear-gradient(45deg, #ffffff, var(--accent-glow));
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .stat-label { color: var(--text-gray); font-size: clamp(0.95rem, 0.5vw + 0.8rem, 1.1rem); font-weight: 700; }
+
+        /* Shared Sections */
+        .section-title {
+            text-align: center; font-size: clamp(1.85rem, 2.2vw + 1.1rem, 2.8rem);
+            margin-bottom: clamp(38px, 5vw, 60px); font-weight: 900; text-wrap: balance;
+            background: linear-gradient(to right, #fff, var(--text-gray));
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .section-padding { padding: 100px 5%; }
+        
+        .glass-card {
+            background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border); padding: clamp(26px, 3vw, 40px) clamp(20px, 2.5vw, 30px); border-radius: 20px;
+            text-align: center; transition: all 0.4s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-10px); border-color: rgba(255, 42, 70, 0.4);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+        .glass-card h3 { margin-bottom: 15px; font-size: 1.6rem; color: #fff; }
+        .glass-card p { color: var(--text-gray); font-size: 1.05rem; }
+
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 30px; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 25px; }
+
+        /* Team Section Specifics */
+        .team-card {
+            padding: 30px 20px; background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.05); border-radius: 15px;
+            text-align: center; transition: all 0.3s;
+        }
+        .team-card:hover { background: rgba(140, 28, 43, 0.1); border-color: var(--accent-glow); transform: translateY(-5px); }
+        .team-card h4 { font-size: 1.4rem; margin-bottom: 5px; color: #fff; }
+        .team-card p { color: var(--accent-glow); font-weight: 700; font-size: 1rem; }
+
+        /* Works Section Specifics */
+        .works-grid { max-width: 1200px; margin: 0 auto; }
+        .work-item {
+            background: var(--glass-bg); border: 1px solid var(--glass-border);
+            padding: 20px; border-radius: 12px; display: flex; align-items: center;
+            font-weight: 700; font-size: 1.1rem; color: #fff; transition: all 0.3s;
+        }
+        .work-item::before { content: '✦'; color: var(--accent-glow); margin-left: 15px; font-size: 1.5rem; }
+        body[dir="ltr"] .work-item::before { margin-left: 0; margin-right: 15px; }
+        .work-item:hover { background: rgba(140, 28, 43, 0.1); border-color: var(--accent-glow); transform: translateX(-5px); }
+        body[dir="ltr"] .work-item:hover { transform: translateX(5px); }
+
+        /* Testimonials */
+        .testimonial-card { text-align: right; padding: clamp(26px, 4vw, 40px); position: relative; }
+        .testimonial-card::before {
+            content: '”'; position: absolute; top: 10px; right: 20px;
+            font-size: 5rem; color: rgba(255, 42, 70, 0.2); font-family: serif;
+        }
+        .test-text { font-size: clamp(1.02rem, 0.6vw + 0.85rem, 1.2rem); font-style: italic; margin-bottom: 20px; position: relative; z-index: 1; }
+        .test-author { color: var(--accent-glow); font-weight: bold; }
+
+        /* Clients Section */
+        .clients-section { padding: 80px 0; border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border); background: rgba(0,0,0,0.3); overflow: hidden; }
+        .partners-track { display: flex; gap: clamp(40px, 6vw, 80px); width: max-content; animation: scrollTrack 30s linear infinite; }
+        .partner-item { font-size: clamp(1.2rem, 1.4vw + 0.7rem, 1.8rem); font-weight: 900; color: rgba(255, 255, 255, 0.3); transition: color 0.3s; white-space: nowrap; }
+        .partner-item:hover { color: #fff; }
+        @keyframes scrollTrack { 0% { transform: translateX(0); } 100% { transform: translateX(50%); } }
+
+        /* Modal (Quote) */
+        .modal {
+            position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center; z-index: 9999;
+            opacity: 0; pointer-events: none; transition: opacity 0.3s ease;
+        }
+        .modal.active { opacity: 1; pointer-events: auto; }
+        .modal-content {
+            background: #111; border: 1px solid var(--glass-border);
+            padding: clamp(24px, 5vw, 40px); border-radius: 20px; width: min(92%, 500px);
+            position: relative; transform: translateY(50px); transition: transform 0.3s ease;
+            max-height: 90vh; overflow-y: auto;
+        }
+        .modal.active .modal-content { transform: translateY(0); }
+        .close-btn {
+            position: absolute; top: 15px; left: 20px; background: none; border: none;
+            color: #fff; font-size: 1.5rem; cursor: pointer; transition: color 0.3s;
+        }
+        .close-btn:hover { color: var(--accent-glow); }
+        
+        .form-group { margin-bottom: 20px; text-align: right; }
+        .form-control {
+            width: 100%; padding: 15px; background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 8px;
+            font-family: inherit; font-size: 1rem; outline: none; transition: border-color 0.3s;
+        }
+        .form-control:focus { border-color: var(--accent-glow); }
+
+        /* إصلاح مشكلة ويندوز: خيارات القائمة المنسدلة كانت بيضاء على خلفية بيضاء
+           (كروم/إيدج على ويندوز يرسمون قائمة الخيارات بخلفية فاتحة، والنص كان يرث الأبيض) */
+        select.form-control {
+            color-scheme: dark;               /* يخلي المتصفح يرسم القائمة كلها بالوضع الداكن */
+            background-color: #161616;        /* خلفية صلبة بدل الشفافة لضمان التباين */
+        }
+        select.form-control option {
+            background-color: #161616;        /* خلفية داكنة صريحة لكل خيار */
+            color: #ffffff;
+        }
+        select.form-control option:disabled { color: #9a9a9a; }
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed; bottom: 30px; left: 30px; background-color: #25d366;
+            color: white; width: 65px; height: 65px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); z-index: 9990; transition: transform 0.3s;
+        }
+        .whatsapp-btn:hover { transform: scale(1.1); }
+        body[dir="ltr"] .whatsapp-btn { left: auto; right: 30px; }
+
+        /* زر العودة للأعلى (Back to top) */
+        .back-to-top {
+            position: fixed; bottom: 30px; right: 30px;
+            width: 55px; height: 55px; border-radius: 50%;
+            background: rgba(140, 28, 43, 0.9); color: #fff;
+            border: 1px solid rgba(255,255,255,0.15);
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; font-size: 1.5rem; line-height: 1;
+            z-index: 9990; opacity: 0; pointer-events: none;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        .back-to-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+        .back-to-top:hover { background: var(--accent-glow); transform: translateY(-5px); }
+        body[dir="ltr"] .back-to-top { right: auto; left: 30px; }
+
+        /* Footer */
+        .footer { padding: 80px 5% 40px; text-align: center; background: rgba(0,0,0,0.5); }
+        .contact-info p { font-size: clamp(1.05rem, 0.6vw + 0.9rem, 1.3rem); margin-bottom: 15px; color: var(--text-gray); }
+        .contact-link { color: #fff; text-decoration: none; transition: color 0.3s; direction: ltr; display: inline-block; }
+        .contact-link:hover { color: var(--accent-glow); }
+
+        /* المعلومات النظامية (سجل تجاري / ضريبي) */
+        .commercial-info {
+            margin-top: 35px; display: flex; flex-wrap: wrap;
+            justify-content: center; gap: 12px 35px;
+            color: #777; font-size: 0.92rem;
+        }
+        .commercial-info span { color: var(--text-gray); font-weight: 700; }
+
+        /* أداء: المتصفح ما يرسم الأقسام السفلية إلا عند الاقتراب منها */
+        .cv-auto { content-visibility: auto; contain-intrinsic-size: auto 700px; }
+
+        /* Animation Class */
+        .fade-up { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+        /* LTR adjustments for English */
+        body[dir="ltr"] .testimonial-card { text-align: left; }
+        body[dir="ltr"] .testimonial-card::before { right: auto; left: 20px; }
+        body[dir="ltr"] .close-btn { left: auto; right: 20px; }
+        body[dir="ltr"] .form-group { text-align: left; }
+
+        /* ===== مقدمة ترحيبية ثلاثية الأبعاد عند فتح الموقع ===== */
+        body.intro-active { overflow: hidden; }
+        .intro-overlay {
+            position: fixed; inset: 0; z-index: 100000;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            background: radial-gradient(circle at 50% 42%, #16060b 0%, #050505 58%, #000000 100%);
+            perspective: 1200px; overflow: hidden;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+        .intro-overlay.hide { opacity: 0; visibility: hidden; pointer-events: none; }
+        .intro-word {
+            font-family: var(--font-luxury); font-weight: 900;
+            font-size: clamp(5rem, 24vw, 21rem); line-height: 1;
+            background: linear-gradient(135deg, #ff2a46 15%, #ffffff 85%);
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+            -webkit-mask-image: radial-gradient(circle, black 40%, transparent 40%);
+            -webkit-mask-size: 16px 16px;
+            mask-image: radial-gradient(circle, black 40%, transparent 40%);
+            mask-size: 16px 16px;
+            filter: drop-shadow(0 20px 55px rgba(255, 42, 70, 0.55));
+            transform-style: preserve-3d; will-change: transform, opacity, filter;
+            user-select: none;
+            animation: introFly 2.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes introFly {
+            0%   { opacity: 0; transform: translateZ(-900px) rotateX(55deg) rotateY(-12deg); filter: blur(16px) drop-shadow(0 20px 55px rgba(255,42,70,0.15)); }
+            55%  { opacity: 1; transform: translateZ(60px) rotateX(-6deg) rotateY(5deg); filter: blur(0) drop-shadow(0 28px 65px rgba(255,42,70,0.65)); }
+            100% { opacity: 1; transform: translateZ(0) rotateX(0deg) rotateY(0deg) scale(1); filter: blur(0) drop-shadow(0 20px 50px rgba(255,42,70,0.5)); }
+        }
+        .intro-welcome {
+            margin-top: 5px; font-family: var(--font-main); font-weight: 700;
+            font-size: 1.4rem; letter-spacing: 0; color: #fff; opacity: 0;
+            animation: introFade 1s ease forwards; animation-delay: 1.3s;
+        }
+        .intro-line {
+            width: 0; height: 2px; margin-top: 22px; border-radius: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-glow), transparent);
+            animation: introLine 1.1s ease forwards; animation-delay: 1.5s;
+        }
+        .intro-skip {
+            position: absolute; bottom: 40px;
+            background: transparent; border: 1px solid var(--glass-border);
+            color: var(--text-gray); padding: 8px 24px; border-radius: 30px;
+            font-family: inherit; font-weight: 700; font-size: 0.9rem; cursor: pointer;
+            opacity: 0; animation: introFade 0.8s ease forwards; animation-delay: 1.9s;
+            transition: color 0.3s, border-color 0.3s;
+        }
+        .intro-skip:hover { color: #fff; border-color: var(--accent-glow); }
+        [dir="ltr"] .intro-welcome { letter-spacing: 6px; }
+        @keyframes introFade { from { opacity: 0; transform: translateY(12px); } to { opacity: 0.85; transform: translateY(0); } }
+        @keyframes introLine { to { width: 190px; } }
+        @keyframes introFlyLite {
+            0%   { opacity: 0; transform: translateZ(-700px) rotateX(50deg); }
+            60%  { opacity: 1; transform: translateZ(40px) rotateX(-4deg); }
+            100% { opacity: 1; transform: translateZ(0) rotateX(0deg); }
+        }
+        @media (max-width: 768px) {
+            .intro-word {
+                -webkit-mask-size: 9px 9px; mask-size: 9px 9px;
+                /* نسخة أخف من الأنيميشن: بدون blur وبظل ثابت خفيف */
+                animation-name: introFlyLite;
+                animation-duration: 1.8s;
+                filter: drop-shadow(0 12px 30px rgba(255, 42, 70, 0.4));
+            }
+            .intro-welcome { font-size: 1rem; letter-spacing: 4px; }
+        }
+
+        /* التابلت والشاشات المتوسطة: القائمة كانت تتكدس وتقص الروابط، لذلك نفعّل قائمة الجوال مبكراً */
+        @media (max-width: 992px) {
+            .navbar { padding: 15px 5%; }
+            .hamburger { display: flex; }
+            .nav-links {
+                position: absolute; top: 100%; right: 0; left: 0;
+                flex-direction: column; gap: 0;
+                background: rgba(5, 5, 5, 0.97);
+                backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+                border-bottom: 1px solid var(--glass-border);
+                padding: 0; max-height: 0; overflow: hidden;
+                transition: max-height 0.4s ease, padding 0.4s ease;
+            }
+            .nav-links.open { max-height: 460px; padding: 15px 0; }
+            .nav-links li { width: 100%; text-align: center; padding: 12px 0; }
+        }
+
+        @media (max-width: 768px) {
+            .scrolly-word-3d {
+                font-size: min(38vw, 34vh);
+                -webkit-mask-size: 8px 8px;
+                mask-size: 8px 8px;
+                /* الظل المتحرك مع الـ mask كان أثقل شي على الجوال — النقاط والتدرج كافيين */
+                filter: none;
+            }
+            .section-padding { padding: 70px 5%; }
+
+            /* backdrop-filter مكلف جداً على معالجات الجوال — نستبدله بخلفية شبه شفافة ثابتة
+               (الفرق البصري شبه معدوم على خلفية سوداء) */
+            .glass-card {
+                backdrop-filter: none; -webkit-backdrop-filter: none;
+                background: rgba(255, 255, 255, 0.045);
+            }
+            .scrolly-slide {
+                backdrop-filter: none; -webkit-backdrop-filter: none;
+                background: rgba(8, 8, 8, 0.92);
+            }
+            .navbar { backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+            .modal { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(0, 0, 0, 0.88); }
+
+            /* الكرات الضوئية: بدون حركة دائمة على الجوال (تستهلك بطارية ومعالجة بلا داعي) */
+            .ambient-glow, .ambient-glow-2 { animation: none; width: 300px; height: 300px; }
+        }
+
+        /* الجوالات الصغيرة */
+        @media (max-width: 480px) {
+            .whatsapp-btn { width: 54px; height: 54px; bottom: 18px; left: 18px; }
+            .whatsapp-btn svg { width: 28px; height: 28px; }
+            .back-to-top { width: 46px; height: 46px; bottom: 18px; right: 18px; font-size: 1.2rem; }
+            body[dir="ltr"] .back-to-top { left: 18px; right: auto; }
+            body[dir="ltr"] .whatsapp-btn { right: 18px; left: auto; }
+            .btn { padding: 15px 32px; font-size: 1rem; width: 100%; max-width: 340px; }
+        }
+
+        /* ===== قسم الأسئلة الشائعة (FAQ) ===== */
+        .faq-wrap { max-width: 850px; margin: 0 auto; display: grid; gap: 15px; }
+        .faq-item {
+            background: var(--glass-bg); border: 1px solid var(--glass-border);
+            border-radius: 14px; overflow: hidden; transition: border-color 0.3s, background 0.3s;
+        }
+        .faq-item[open] { border-color: rgba(255, 42, 70, 0.35); background: rgba(255, 255, 255, 0.045); }
+        .faq-item summary {
+            list-style: none; cursor: pointer;
+            padding: 20px 22px; font-weight: 700;
+            font-size: clamp(1rem, 0.5vw + 0.85rem, 1.1rem);
+            display: flex; justify-content: space-between; align-items: center; gap: 15px;
+        }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after {
+            content: '+'; color: var(--accent-glow); font-size: 1.6rem; font-weight: 400;
+            line-height: 1; transition: transform 0.3s; flex-shrink: 0;
+        }
+        .faq-item[open] summary::after { transform: rotate(45deg); }
+        .faq-item .faq-answer {
+            padding: 0 22px 20px; color: var(--text-gray);
+            font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem);
+        }
+
+        /* ===== تكيّف تلقائي مع نوع الجهاز والشاشة ===== */
+
+        /* أجهزة اللمس (جوال/تابلت): نلغي تأثيرات hover اللي "تعلق" باللمس ونستبدلها بضغطة */
+        @media (hover: none) {
+            .glass-card:hover, .team-card:hover, .work-item:hover { transform: none; }
+            .btn:hover { transform: none; }
+            .btn:active { transform: scale(0.97); }
+            .glass-card:active, .team-card:active { border-color: rgba(255, 42, 70, 0.4); }
+        }
+
+        /* الجوال بالوضع الأفقي / الشاشات القصيرة: نمنع قص المحتوى عمودياً */
+        @media (max-height: 540px) and (orientation: landscape) {
+            .hero { min-height: auto; padding: 100px 20px 50px; }
+            .hero h1 { font-size: clamp(1.7rem, 4vh + 0.8rem, 2.6rem); margin-bottom: 15px; }
+            .hero p { margin-bottom: 25px; }
+            .scrolly-content-wrapper { height: auto; }
+            .section-padding { padding: 60px 5%; }
+        }
+
+        /* الشاشات الكبيرة جداً (شاشات 2K وفوق): نكبّر القياس الأساسي شوي */
+        @media (min-width: 1700px) {
+            html { font-size: 17.5px; }
+            .hero-content { max-width: 1000px; }
+        }
+
+        /* مناطق الأمان للآيفون والأجهزة ذات النوتش */
+        @supports (bottom: max(0px)) {
+            .whatsapp-btn { bottom: max(30px, env(safe-area-inset-bottom)); left: max(30px, env(safe-area-inset-left)); }
+            .back-to-top { bottom: max(30px, env(safe-area-inset-bottom)); right: max(30px, env(safe-area-inset-right)); }
+        }
+
+        /* احترام تفضيل تقليل الحركة (Accessibility) */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.001ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== مقدمة ترحيبية ثلاثية الأبعاد (تظهر عند فتح الموقع) ===== -->
+    <div class="intro-overlay" id="introOverlay" role="dialog" aria-label="شاشة ترحيب">
+        <div class="intro-word">رَص.</div>
+        <div class="intro-welcome" data-ar="أهلاً بكم" data-en="WELCOME">أهلاً بكم</div>
+        <div class="intro-line"></div>
+        <button class="intro-skip" id="introSkip" data-ar="تخطّي ✕" data-en="Skip ✕">تخطّي ✕</button>
+    </div>
+    <script>
+        (function () {
+            const intro = document.getElementById('introOverlay');
+            if (!intro) return;
+            const body = document.body;
+
+            const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            let alreadySeen = false;
+            try { alreadySeen = sessionStorage.getItem('rassIntroSeen') === '1'; } catch (e) {}
+
+            // لمن يفضّل تقليل الحركة أو شاهد المقدمة في نفس الجلسة: نتجاوزها فوراً
+            if (prefersReduced || alreadySeen) {
+                if (intro.parentNode) intro.parentNode.removeChild(intro);
+                return;
+            }
+
+            body.classList.add('intro-active');
+            try { sessionStorage.setItem('rassIntroSeen', '1'); } catch (e) {}
+
+            let done = false;
+            function dismiss() {
+                if (done) return;
+                done = true;
+                intro.classList.add('hide');
+                body.classList.remove('intro-active');
+                window.removeEventListener('wheel', dismiss);
+                window.removeEventListener('touchmove', dismiss);
+                setTimeout(function () { if (intro.parentNode) intro.parentNode.removeChild(intro); }, 900);
+            }
+
+            // إغلاق تلقائي بعد انتهاء الأنيميشن، أو عند التمرير/اللمس/الضغط على تخطّي
+            const autoTimer = setTimeout(dismiss, 3200);
+            window.addEventListener('wheel', dismiss, { passive: true });
+            window.addEventListener('touchmove', dismiss, { passive: true });
+            const skip = document.getElementById('introSkip');
+            if (skip) skip.addEventListener('click', function (e) { e.preventDefault(); clearTimeout(autoTimer); dismiss(); });
+        })();
+    </script>
+
+    <div class="ambient-glow"></div>
+    <div class="ambient-glow-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home" aria-label="رص - الصفحة الرئيسية">رَص<span>.</span></a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" data-ar="الهوية والقيم" data-en="About & Values">الهوية والقيم</a></li>
+            <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+            <li><a href="#works" data-ar="أعمالنا" data-en="Projects">أعمالنا</a></li>
+            <li><a href="#team" data-ar="فريقنا" data-en="Our Team">فريقنا</a></li>
+            <li><a href="#clients" data-ar="العملاء" data-en="Clients">العملاء</a></li>
+            <li><a href="#faq" data-ar="الأسئلة الشائعة" data-en="FAQ">الأسئلة الشائعة</a></li>
+            <li><button id="langToggle" class="lang-btn">English</button></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-up" data-ar="شريكك المتكامل لتنظيم الفعاليات واستقبال كبار الضيوف" data-en="Your Partner in Event Management & VIP Reception">شريكك المتكامل لتنظيم الفعاليات واستقبال كبار الضيوف</h1>
+            <p class="fade-up" style="transition-delay: 0.2s;" data-ar="إيماناً منا في أهمية إدارة الحشود وتنظيم الفعاليات، نصنع الفارق بطرق مبتكرة وتقنيات حديثة من الفكرة إلى التنفيذ." data-en="Believing in the importance of crowd management and event organization, we make a difference with innovative methods.">إيماناً منا في أهمية إدارة الحشود وتنظيم الفعاليات، نصنع الفارق بطرق مبتكرة وتقنيات حديثة من الفكرة إلى التنفيذ.</p>
+            <div class="fade-up" style="transition-delay: 0.4s;">
+                <button class="btn" onclick="openModal('quoteModal')" data-ar="اطلب عرض سعر لفعاليتك" data-en="Request a Quote">اطلب عرض سعر لفعاليتك</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= قسم الـ Scrollytelling بتأثير 3D والنقاط ================= -->
+    <section id="scrolly-brand" class="scrolly-container">
+        <div class="scrolly-sticky">
+            
+            <div id="giantWord" class="scrolly-word-3d">رَص.</div>
+            
+            <div class="scrolly-content-wrapper">
+                <div class="scrolly-slide" id="slide1">
+                    <h3 data-ar="الرّاء: ريادة وإبداع" data-en="R: Leadership & Innovation">الرّاء: ريادة وإبداع</h3>
+                    <p data-ar="تخطيط استراتيجي مسبق، يرصّ التفاصيل بدقة متناهية لنصنع تجارب بصرية وتنظيمية لا تُنسى." data-en="Strategic preparation, structuring details flawlessly to craft unforgettable visual and structural experiences.">تخطيط استراتيجي مسبق، يرصّ التفاصيل بدقة متناهية لنصنع تجارب بصرية وتنظيمية لا تُنسى.</p>
+                </div>
+                <div class="scrolly-slide" id="slide2">
+                    <h3 data-ar="الصّاد: صياغة وإتقان" data-en="S: Mastery & Execution">الصّاد: صياغة وإتقان</h3>
+                    <p data-ar="صناعة الفارق الحقيقي في إدارة الحشود برؤية هندسية مرصوصة تضمن انسيابية وأمان كل حدث." data-en="Making a true difference in crowd control with a tightly engineered plan that ensures flow and absolute security.">صناعة الفارق الحقيقي في إدارة الحشود برؤية هندسية مرصوصة تضمن انسيابية وأمان كل حدث.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================================================= -->
+
+    <!-- ================= قسم الإحصائيات =================
+         ⚠️ عدّل الأرقام (data-target) لتطابق إنجازاتكم الحقيقية -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item fade-up">
+                <span class="stat-number" data-target="50" data-suffix="+">0</span>
+                <span class="stat-label" data-ar="فعالية ومؤتمر" data-en="Events & Conferences">فعالية ومؤتمر</span>
+            </div>
+            <div class="stat-item fade-up" style="transition-delay: 0.1s;">
+                <span class="stat-number" data-target="100000" data-suffix="+">0</span>
+                <span class="stat-label" data-ar="ضيف وزائر" data-en="Guests & Visitors">ضيف وزائر</span>
+            </div>
+            <div class="stat-item fade-up" style="transition-delay: 0.2s;">
+                <span class="stat-number" data-target="6" data-suffix="">0</span>
+                <span class="stat-label" data-ar="مناطق في المملكة" data-en="Regions Covered">مناطق في المملكة</span>
+            </div>
+            <div class="stat-item fade-up" style="transition-delay: 0.3s;">
+                <span class="stat-number" data-target="30" data-suffix="+">0</span>
+                <span class="stat-label" data-ar="شريك نجاح" data-en="Success Partners">شريك نجاح</span>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================ -->
+
+    <section id="about" class="section-padding">
+        <h2 class="section-title fade-up" data-ar="هويتنا ورؤيتنا" data-en="Vision & Mission">هويتنا ورؤيتنا</h2>
+        <div class="grid-2">
+            <div class="glass-card fade-up">
+                <h3 data-ar="رؤية رص" data-en="Our Vision">رؤية رص</h3>
+                <p data-ar="إيماناً منا في أهمية إدارة الحشود وتنظيم الفعاليات والمؤتمرات جاءت فكرة رص، ومنذ انطلاقنا ونحن بداخلنا الحافز لإثبات جدارتنا في هذا القطاع الحيوي." data-en="Driven by the importance of event and crowd management, Rass was born to prove our excellence in this vital sector.">إيماناً منا في أهمية إدارة الحشود وتنظيم الفعاليات والمؤتمرات جاءت فكرة رص، ومنذ انطلاقنا ونحن بداخلنا الحافز لإثبات جدارتنا في هذا القطاع الحيوي.</p>
+            </div>
+            <div class="glass-card fade-up" style="transition-delay: 0.2s;">
+                <h3 data-ar="رسالة رص" data-en="Our Mission">رسالة رص</h3>
+                <p data-ar="خلق مفهوم مختلف وواسع لإدارة الحشود وتنظيم الفعاليات من الفكرة إلى التنفيذ النهائي للمبادرة بطرق مبتكرة وتقنيات حديثة." data-en="Creating a unique concept for event management from inception to final execution using modern technologies.">خلق مفهوم مختلف وواسع لإدارة الحشود وتنظيم الفعاليات من الفكرة إلى التنفيذ النهائي للمبادرة بطرق مبتكرة وتقنيات حديثة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="padding-top: 0;">
+        <h2 class="section-title fade-up" data-ar="قيم رص" data-en="Our Values">قيم رص</h2>
+        <div class="grid-4">
+            <div class="glass-card fade-up" style="padding: 30px 20px;">
+                <h3 data-ar="الابتكار" data-en="Innovation">الابتكار</h3>
+                <p data-ar="تنمية قطاع إدارة الحشود وتنظيم الفعاليات بطرق حديثة ومبتكرة." data-en="Advancing event management using modern and innovative methods.">تنمية قطاع إدارة الحشود وتنظيم الفعاليات بطرق حديثة ومبتكرة.</p>
+            </div>
+            <div class="glass-card fade-up" style="padding: 30px 20px; transition-delay: 0.1s;">
+                <h3 data-ar="التمكين" data-en="Empowerment">التمكين</h3>
+                <p data-ar="تعزيز مفهوم القطاع في الشباب والشابات وتدريبهم ورفع كفاءتهم." data-en="Training and empowering young talents to raise their efficiency.">تعزيز مفهوم القطاع في الشباب والشابات وتدريبهم ورفع كفاءتهم.</p>
+            </div>
+            <div class="glass-card fade-up" style="padding: 30px 20px; transition-delay: 0.2s;">
+                <h3 data-ar="المنهجية" data-en="Methodology">المنهجية</h3>
+                <p data-ar="تنوع القطاع مما أسهم في خلق منهجية متبعة وخطة مدروسة في كل تنظيم." data-en="Creating structured plans and methodologies for every single event.">تنوع القطاع مما أسهم في خلق منهجية متبعة وخطة مدروسة في كل تنظيم.</p>
+            </div>
+            <div class="glass-card fade-up" style="padding: 30px 20px; transition-delay: 0.3s;">
+                <h3 data-ar="التعاون" data-en="Collaboration">التعاون</h3>
+                <p data-ar="تعاوننا مع عدة قطاعات عامة وخاصة لتنظيم أكثر من فعالية في آن واحد." data-en="Collaborating with public and private sectors simultaneously.">تعاوننا مع عدة قطاعات عامة وخاصة لتنظيم أكثر من فعالية في آن واحد.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding cv-auto" style="background: rgba(0,0,0,0.2);">
+        <h2 class="section-title fade-up" data-ar="خدمات رص" data-en="Our Services">خدمات رص</h2>
+        <div class="grid-3">
+            <div class="glass-card fade-up">
+                <h3 data-ar="تنظيم الفعاليات والمناسبات" data-en="Events & Occasions">تنظيم الفعاليات والمناسبات</h3>
+                <p data-ar="تنسيق وتشغيل الفعاليات العامة والخاصة وفق أعلى المعايير التنظيمية." data-en="Coordinating and running public and private events to the highest standards.">تنسيق وتشغيل الفعاليات العامة والخاصة وفق أعلى المعايير التنظيمية.</p>
+            </div>
+            <div class="glass-card fade-up" style="transition-delay: 0.1s;">
+                <h3 data-ar="تنظيم المؤتمرات والملتقيات" data-en="Conferences & Forums">تنظيم المؤتمرات والملتقيات</h3>
+                <p data-ar="إدارة كاملة للفعاليات الرسمية من التخطيط حتى التنفيذ باحترافية عالية." data-en="Full management of official events from planning to professional execution.">إدارة كاملة للفعاليات الرسمية من التخطيط حتى التنفيذ باحترافية عالية.</p>
+            </div>
+            <div class="glass-card fade-up" style="transition-delay: 0.2s;">
+                <h3 data-ar="استقبال كبار الشخصيات (VIP)" data-en="VIP Reception">استقبال كبار الشخصيات (VIP)</h3>
+                <p data-ar="تنظيم بروتوكول الاستقبال والتنسيق الكامل لضمان تجربة راقية ومنظمة." data-en="Organizing reception protocols and full coordination for a refined experience.">تنظيم بروتوكول الاستقبال والتنسيق الكامل لضمان تجربة راقية ومنظمة.</p>
+            </div>
+            <div class="glass-card fade-up">
+                <h3 data-ar="التنقل الرسمي بسيارات فاخرة" data-en="Luxury Transport">التنقل الرسمي بسيارات فاخرة</h3>
+                <p data-ar="توفير سيارات مع سائق لخدمة الضيوف والوفود طوال مدة الفعالية." data-en="Providing chauffeur-driven luxury cars for guests throughout the event.">توفير سيارات مع سائق لخدمة الضيوف والوفود طوال مدة الفعالية.</p>
+            </div>
+            <div class="glass-card fade-up" style="transition-delay: 0.1s;">
+                <h3 data-ar="تغطية جميع مناطق المملكة" data-en="Kingdom-wide Coverage">تغطية جميع مناطق المملكة</h3>
+                <p data-ar="تنفيذ الخدمات في مختلف المدن وفق خطة تشغيل مرنة." data-en="Executing services across different cities with a flexible operational plan.">تنفيذ الخدمات في مختلف المدن وفق خطة تشغيل مرنة.</p>
+            </div>
+            <div class="glass-card fade-up" style="transition-delay: 0.2s;">
+                <h3 data-ar="توثيق الحدث وإدارة الحشود" data-en="Documentation & Crowds">توثيق الحدث وإدارة الحشود</h3>
+                <p data-ar="خطط متكاملة لتنظيم الجماهير وتغطية احترافية شاملة لأبرز لحظات الحدث." data-en="Integrated plans for crowd control and comprehensive professional coverage.">خطط متكاملة لتنظيم الجماهير وتغطية احترافية شاملة لأبرز لحظات الحدث.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="section-padding cv-auto">
+        <h2 class="section-title fade-up" data-ar="أعمال ومشاريع رص" data-en="Our Projects">أعمال ومشاريع رص</h2>
+        <div class="grid-3 works-grid">
+            <div class="work-item fade-up" data-ar="فعالية نقوش" data-en="Nuqoush Event">فعالية نقوش</div>
+            <div class="work-item fade-up" style="transition-delay: 0.1s;" data-ar="فعالية براديوت 2023" data-en="Bradiout Event 2023">فعالية براديوت 2023</div>
+            <div class="work-item fade-up" style="transition-delay: 0.2s;" data-ar="معرض الخزامى للعطور" data-en="Khuzami Perfume Exhibition">معرض الخزامى للعطور</div>
+            <div class="work-item fade-up" data-ar="كرنفال شتاء جازان 2023" data-en="Jazan Winter Carnival">كرنفال شتاء جازان 2023</div>
+            <div class="work-item fade-up" style="transition-delay: 0.1s;" data-ar="سيتي هب - هيئة الترفيه" data-en="City Hub - GEA">سيتي هب - هيئة الترفيه</div>
+            <div class="work-item fade-up" style="transition-delay: 0.2s;" data-ar="مهرجان الصقور بجازان" data-en="Jazan Falcons Festival">مهرجان الصقور بجازان</div>
+            <div class="work-item fade-up" data-ar="أمسية الأمير عبد الرحمن بن مساعد" data-en="Prince Abdulrahman Evening">أمسية الأمير عبد الرحمن بن مساعد</div>
+            <div class="work-item fade-up" style="transition-delay: 0.1s;" data-ar="المركز الوطني لتنمية الغطاء النباتي" data-en="Vegetation Cover Development">المركز الوطني لتنمية الغطاء النباتي</div>
+            <div class="work-item fade-up" style="transition-delay: 0.2s;" data-ar="حفل الأهالي لليوم الوطني" data-en="National Day Celebration">حفل الأهالي لليوم الوطني</div>
+            <div class="work-item fade-up" data-ar="فعالية هيئة التراث (تراث بحري)" data-en="Heritage Authority Event">فعالية هيئة التراث (تراث بحري)</div>
+            <div class="work-item fade-up" style="transition-delay: 0.1s;" data-ar="بطولة اختراق الضاحية للجامعات" data-en="University Cross-Country">بطولة اختراق الضاحية للجامعات</div>
+            <div class="work-item fade-up" style="transition-delay: 0.2s;" data-ar="تنظيم مجالس القهوة وفعالية مشراح" data-en="Coffee Majlis & Mishrah Event">تنظيم مجالس القهوة وفعالية مشراح</div>
+        </div>
+    </section>
+
+    <section id="team" class="section-padding cv-auto" style="background: rgba(0,0,0,0.2);">
+        <h2 class="section-title fade-up" data-ar="فريق رص" data-en="Our Team">فريق رص</h2>
+        <div class="grid-3">
+            <div class="team-card fade-up">
+                <h4 data-ar="هند المالكي" data-en="Hind Al-Maliki">هند المالكي</h4>
+                <p data-ar="مدير عام" data-en="General Manager">مدير عام</p>
+            </div>
+            <div class="team-card fade-up" style="transition-delay: 0.1s;">
+                <h4 data-ar="عمر بريك" data-en="Omar Burailk">عمر بريك</h4>
+                <p data-ar="مدير تنفيذي" data-en="Executive Director">مدير تنفيذي</p>
+            </div>
+            <div class="team-card fade-up" style="transition-delay: 0.2s;">
+                <h4 data-ar="أميرة عواجي" data-en="Amira Awaji">أميرة عواجي</h4>
+                <p data-ar="علاقات عامة" data-en="Public Relations">علاقات عامة</p>
+            </div>
+            <div class="team-card fade-up">
+                <h4 data-ar="موسى النجعي" data-en="Musa Al-Naji">موسى النجعي</h4>
+                <p data-ar="مشرف لوجستي" data-en="Logistics Supervisor">مشرف لوجستي</p>
+            </div>
+            <div class="team-card fade-up" style="transition-delay: 0.1s;">
+                <h4 data-ar="مصطفى النجعي" data-en="Mustafa Al-Naji">مصطفى النجعي</h4>
+                <p data-ar="مشرف تخطيط" data-en="Planning Supervisor">مشرف تخطيط</p>
+            </div>
+            <div class="team-card fade-up" style="transition-delay: 0.2s;">
+                <h4 data-ar="عمر عيسائي" data-en="Omar Issaei">عمر عيسائي</h4>
+                <p data-ar="مشرف إداري" data-en="Administrative Supervisor">مشرف إداري</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding cv-auto">
+        <h2 class="section-title fade-up" data-ar="شركاء النجاح يتحدثون" data-en="Testimonials">شركاء النجاح يتحدثون</h2>
+        <div class="grid-2">
+            <div class="glass-card testimonial-card fade-up">
+                <p class="test-text" data-ar="&quot;تجربة استثنائية في سيتي هب، اهتمام بأدق التفاصيل واحترافية عالية في إدارة الحشود والوفود.&quot;" data-en="&quot;An exceptional experience in City Hub, attention to detail, and high professionalism in crowd management.&quot;">"تجربة استثنائية في سيتي هب، اهتمام بأدق التفاصيل واحترافية عالية في إدارة الحشود والوفود."</p>
+                <p class="test-author" data-ar="- مسؤول في الهيئة العامة للترفيه" data-en="- GEA Official">- مسؤول في الهيئة العامة للترفيه</p>
+            </div>
+            <div class="glass-card testimonial-card fade-up" style="transition-delay: 0.2s;">
+                <p class="test-text" data-ar="&quot;رَص ليست مجرد منظمة، بل شريك نجاح حقيقي. ترتيبات حفل اليوم الوطني كانت تفوق التوقعات.&quot;" data-en="&quot;Rass is not just an organizer, but a true success partner. The National Day arrangements exceeded expectations.&quot;">"رَص ليست مجرد منظمة، بل شريك نجاح حقيقي. ترتيبات حفل اليوم الوطني كانت تفوق التوقعات."</p>
+                <p class="test-author" data-ar="- مسؤول في أمانة منطقة جازان" data-en="- Jazan Municipality Official">- مسؤول في أمانة منطقة جازان</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="clients-section fade-up">
+        <div class="partners-track">
+            <div class="partner-item" data-ar="الهيئة العامة للترفيه" data-en="GEA">الهيئة العامة للترفيه</div>
+            <div class="partner-item" data-ar="وزارة الرياضة" data-en="Ministry of Sports">وزارة الرياضة</div>
+            <div class="partner-item" data-ar="وزارة الثقافة" data-en="Ministry of Culture">وزارة الثقافة</div>
+            <div class="partner-item" data-ar="الهيئة الملكية للجبيل وينبع" data-en="Royal Commission">الهيئة الملكية للجبيل وينبع</div>
+            <div class="partner-item" data-ar="المكتب الاستراتيجي لتطوير جازان" data-en="Jazan Strategic Office">المكتب الاستراتيجي لتطوير جازان</div>
+            <div class="partner-item" data-ar="الشركة السعودية للقهوة" data-en="Saudi Coffee Co.">الشركة السعودية للقهوة</div>
+            <div class="partner-item" data-ar="أرامكو" data-en="Aramco">أرامكو</div>
+            <div class="partner-item" data-ar="أمانة منطقة جازان" data-en="Jazan Municipality">أمانة منطقة جازان</div>
+            <div class="partner-item" aria-hidden="true" data-ar="الهيئة العامة للترفيه" data-en="GEA">الهيئة العامة للترفيه</div>
+            <div class="partner-item" aria-hidden="true" data-ar="وزارة الرياضة" data-en="Ministry of Sports">وزارة الرياضة</div>
+            <div class="partner-item" aria-hidden="true" data-ar="وزارة الثقافة" data-en="Ministry of Culture">وزارة الثقافة</div>
+            <div class="partner-item" aria-hidden="true" data-ar="الهيئة الملكية للجبيل وينبع" data-en="Royal Commission">الهيئة الملكية للجبيل وينبع</div>
+            <div class="partner-item" aria-hidden="true" data-ar="المكتب الاستراتيجي لتطوير جازان" data-en="Jazan Strategic Office">المكتب الاستراتيجي لتطوير جازان</div>
+            <div class="partner-item" aria-hidden="true" data-ar="الشركة السعودية للقهوة" data-en="Saudi Coffee Co.">الشركة السعودية للقهوة</div>
+            <div class="partner-item" aria-hidden="true" data-ar="أرامكو" data-en="Aramco">أرامكو</div>
+            <div class="partner-item" aria-hidden="true" data-ar="أمانة منطقة جازان" data-en="Jazan Municipality">أمانة منطقة جازان</div>
+        </div>
+    </section>
+
+
+    <!-- ================= قسم الأسئلة الشائعة ================= -->
+    <section id="faq" class="section-padding cv-auto">
+        <h2 class="section-title fade-up" data-ar="الأسئلة الشائعة" data-en="Frequently Asked Questions">الأسئلة الشائعة</h2>
+        <div class="faq-wrap">
+            <details class="faq-item fade-up">
+                <summary data-ar="كم تحتاجون من الوقت لتجهيز فعالية؟" data-en="How much time do you need to prepare an event?">كم تحتاجون من الوقت لتجهيز فعالية؟</summary>
+                <p class="faq-answer" data-ar="يعتمد على حجم الفعالية؛ الفعاليات الصغيرة والمتوسطة نجهزها خلال أيام قليلة، أما المؤتمرات والمهرجانات الكبيرة فنوصي بالتواصل معنا قبل أسبوعين إلى أربعة أسابيع لضمان أفضل تخطيط وتنفيذ." data-en="It depends on the event size; small and medium events can be prepared within days, while large conferences and festivals are best booked 2–4 weeks in advance to ensure optimal planning and execution.">يعتمد على حجم الفعالية؛ الفعاليات الصغيرة والمتوسطة نجهزها خلال أيام قليلة، أما المؤتمرات والمهرجانات الكبيرة فنوصي بالتواصل معنا قبل أسبوعين إلى أربعة أسابيع لضمان أفضل تخطيط وتنفيذ.</p>
+            </details>
+            <details class="faq-item fade-up" style="transition-delay: 0.05s;">
+                <summary data-ar="هل تغطون جميع مناطق المملكة؟" data-en="Do you cover all regions of Saudi Arabia?">هل تغطون جميع مناطق المملكة؟</summary>
+                <p class="faq-answer" data-ar="نعم، ننفذ خدماتنا في مختلف مدن ومناطق المملكة وفق خطة تشغيل مرنة، وسبق أن نظمنا فعاليات في عدة مناطق." data-en="Yes, we deliver our services across all cities and regions of the Kingdom with a flexible operational plan, and we have organized events in several regions.">نعم، ننفذ خدماتنا في مختلف مدن ومناطق المملكة وفق خطة تشغيل مرنة، وسبق أن نظمنا فعاليات في عدة مناطق.</p>
+            </details>
+            <details class="faq-item fade-up" style="transition-delay: 0.1s;">
+                <summary data-ar="هل توفرون كوادر تنظيمية رجالية ونسائية؟" data-en="Do you provide both male and female organizing staff?">هل توفرون كوادر تنظيمية رجالية ونسائية؟</summary>
+                <p class="faq-answer" data-ar="نعم، لدينا فرق مدربة من الشباب والشابات لتغطية جميع أنواع الفعاليات حسب طبيعة الحدث ومتطلبات الجهة المنظمة." data-en="Yes, we have trained teams of young men and women to cover all types of events according to the nature of the event and the organizer's requirements.">نعم، لدينا فرق مدربة من الشباب والشابات لتغطية جميع أنواع الفعاليات حسب طبيعة الحدث ومتطلبات الجهة المنظمة.</p>
+            </details>
+            <details class="faq-item fade-up" style="transition-delay: 0.15s;">
+                <summary data-ar="كيف أطلب عرض سعر وكم يستغرق الرد؟" data-en="How do I request a quote and how long does it take?">كيف أطلب عرض سعر وكم يستغرق الرد؟</summary>
+                <p class="faq-answer" data-ar="عبر زر «اطلب عرض سعر لفعاليتك» في الموقع أو عبر واتساب مباشرة، وسنتواصل معك خلال 24 ساعة عمل لمناقشة التفاصيل وتقديم عرض مفصل." data-en="Through the “Request a Quote” button on the website or directly via WhatsApp, and we will contact you within 24 business hours to discuss details and provide a full proposal.">عبر زر «اطلب عرض سعر لفعاليتك» في الموقع أو عبر واتساب مباشرة، وسنتواصل معك خلال 24 ساعة عمل لمناقشة التفاصيل وتقديم عرض مفصل.</p>
+            </details>
+            <details class="faq-item fade-up" style="transition-delay: 0.2s;">
+                <summary data-ar="هل توفرون سيارات فاخرة مع سائقين للضيوف والوفود؟" data-en="Do you provide luxury cars with chauffeurs for guests and delegations?">هل توفرون سيارات فاخرة مع سائقين للضيوف والوفود؟</summary>
+                <p class="faq-answer" data-ar="نعم، نوفر سيارات سيدان فاخرة وسيارات عائلية (SUV) وباصات للوفود مع سائقين محترفين طوال مدة الفعالية، ويمكن إضافتها ضمن طلب عرض السعر." data-en="Yes, we provide luxury sedans, family SUVs, and delegation buses with professional chauffeurs throughout the event, and they can be added to your quote request.">نعم، نوفر سيارات سيدان فاخرة وسيارات عائلية (SUV) وباصات للوفود مع سائقين محترفين طوال مدة الفعالية، ويمكن إضافتها ضمن طلب عرض السعر.</p>
+            </details>
+        </div>
+    </section>
+    <!-- ======================================================== -->
+
+    <footer id="contact" class="footer fade-up">
+        <h2 class="section-title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+        <div class="contact-info">
+            <p><span data-ar="انستقرام / منصة X:" data-en="Instagram / X:">انستقرام / منصة X:</span> <br>
+                <a href="https://x.com/Rasa20300" target="_blank" rel="noopener" class="contact-link">@Rasa20300</a>
+            </p>
+            <p><span data-ar="أرقام التواصل:" data-en="Contact Numbers:">أرقام التواصل:</span> <br>
+                <a href="tel:0502644866" class="contact-link">0502644866</a> - 
+                <a href="tel:0597808588" class="contact-link">0597808588</a>
+            </p>
+            <p><span data-ar="البريد الإلكتروني:" data-en="Email:">البريد الإلكتروني:</span> <br>
+                <!-- ⚠️ استبدل هذا البريد ببريدكم الرسمي -->
+                <a href="mailto:rasa20300@hotmail.com" class="contact-link">rasa20300@hotmail.com</a>
+            </p>
+        </div>
+
+        <!-- ⚠️ أضف أرقامكم النظامية الحقيقية هنا (تزيد ثقة الجهات الحكومية بكم) -->
+        <div class="commercial-info">
+            <div><span data-ar="السجل التجاري:" data-en="CR No:">السجل التجاري:</span> 5900130857</div>
+            <div><span data-ar="الرقم الضريبي:" data-en="VAT No:">الرقم الضريبي:</span> 311085932800003</div>
+            <div><span data-ar="المقر:" data-en="Location:">المقر:</span> <span data-ar="المملكة العربية السعودية" data-en="Saudi Arabia">المملكة العربية السعودية</span></div>
+        </div>
+
+        <p class="copyright" style="margin-top: 40px; color: #555; font-size: 0.9rem;" data-ar="جميع الحقوق محفوظة لـ رص لتنظيم المعارض والمؤتمرات © 2026" data-en="All rights reserved to Rass Exhibitions and Conferences © 2026">جميع الحقوق محفوظة لـ رص لتنظيم المعارض والمؤتمرات © 2026</p>
+    </footer>
+
+    <a href="https://wa.me/966502644866?text=مرحباً%20فريق%20رص،%20أرغب%20بالاستفسار%20عن%20خدمات%20تنظيم%20الفعاليات..." class="whatsapp-btn" target="_blank" rel="noopener" aria-label="تواصل معنا عبر واتساب">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="العودة إلى الأعلى" title="العودة للأعلى">↑</button>
+
+    <div id="quoteModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('quoteModal')" aria-label="إغلاق النافذة">✕</button>
+            <h3 style="margin-bottom: 20px; font-size: 1.8rem;" data-ar="طلب عرض سعر" data-en="Request a Quote">طلب عرض سعر</h3>
+            
+            <form id="quoteForm">
+                <!-- حقل مصيدة لمنع السبام (Honeypot) — مخفي عن المستخدم الحقيقي -->
+                <input type="text" name="website" id="hp_website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; opacity:0;">
+
+                <div class="form-group">
+                    <input type="text" name="companyName" class="form-control" placeholder="اسم الجهة / الشركة" aria-label="اسم الجهة أو الشركة" data-ar="اسم الجهة / الشركة" data-en="Company / Entity Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" class="form-control" placeholder="رقم الجوال للتواصل" aria-label="رقم الجوال للتواصل" data-ar="رقم الجوال للتواصل" data-en="Contact Number" required>
+                </div>
+                <div class="form-group">
+                    <select name="eventType" class="form-control" aria-label="نوع الفعالية المخطط لها" required>
+                        <option value="" disabled selected data-ar="نوع الفعالية المخطط لها" data-en="Event Type">نوع الفعالية المخطط لها</option>
+                        <option value="تنظيم مؤتمر / معرض" data-ar="تنظيم مؤتمر / معرض" data-en="Conference / Exhibition">تنظيم مؤتمر / معرض</option>
+                        <option value="إدارة حشود لمهرجان" data-ar="إدارة حشود لمهرجان" data-en="Festival Crowd Management">إدارة حشود لمهرجان</option>
+                        <option value="مراسم وتشريفات" data-ar="مراسم وتشريفات" data-en="Protocol & Ceremonies">مراسم وتشريفات</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="organizersCount" class="form-control" placeholder="عدد المنظمين المطلوب" aria-label="عدد المنظمين المطلوب" data-ar="عدد المنظمين المطلوب" data-en="Number of organizers required" required>
+                </div>
+                
+                <div class="form-group" style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    <label style="color: var(--accent-glow); font-size: 0.95rem; display: block; margin-bottom: 10px;" data-ar="خدمة توفير سيارات الضيوف والوفود (اختياري)" data-en="VIP Car Service (Optional)">خدمة توفير سيارات الضيوف والوفود (اختياري)</label>
+                    <div style="display: flex; gap: 10px;">
+                        <select name="carClass" class="form-control" style="flex: 2;" aria-label="نوع وفئة السيارة">
+                            <option value="" disabled selected data-ar="نوع وفئة السيارة" data-en="Car Type & Class">نوع وفئة السيارة</option>
+                            <option value="سيدان فاخرة (VIP)" data-ar="سيدان فاخرة (VIP)" data-en="Luxury Sedan (VIP)">سيدان فاخرة (VIP)</option>
+                            <option value="سيارات عائلية فاخرة (SUV)" data-ar="سيارات عائلية فاخرة (SUV)" data-en="Luxury Family SUV">سيارات عائلية فاخرة (SUV)</option>
+                            <option value="باصات فاخرة للوفود" data-ar="باصات فاخرة للوفود" data-en="Luxury Delegation Buses">باصات فاخرة للوفود</option>
+                            <option value="بدون سيارات" data-ar="بدون سيارات" data-en="No Cars">بدون سيارات</option>
+                        </select>
+                        <input type="number" name="days" class="form-control" placeholder="عدد الأيام" aria-label="عدد الأيام" data-ar="عدد الأيام" data-en="Days" style="flex: 1;">
+                    </div>
+                </div>
+
+                <button type="submit" id="submitBtn" class="btn" style="width: 100%; margin-top: 10px;" data-ar="إرسال الطلب الآن" data-en="Submit Request">إرسال الطلب الآن</button>
+                <p id="formStatus" style="display: none; margin-top: 15px; text-align: center; color: #25d366; font-weight: bold;"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- ====== Schema.org (يساعد قوقل على فهم أنكم شركة فعاليات في السعودية) ======
+         ⚠️ حدّث الرابط (url) والشعار (logo) والمنطقة (addressRegion) بمعلوماتكم الحقيقية -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "شركة رَص لتنظيم الفعاليات والمؤتمرات",
+      "alternateName": "Rass Events",
+      "description": "شريكك المتكامل لتنظيم الفعاليات والمؤتمرات واستقبال كبار الضيوف في المملكة العربية السعودية.",
+      "url": "https://www.rass.sa/",
+      "logo": "https://www.rass.sa/logo.png",
+      "image": "https://www.rass.sa/og-image.jpg",
+      "telephone": "+966502644866",
+      "areaServed": { "@type": "Country", "name": "Saudi Arabia" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SA",
+        "addressRegion": "Jazan"
+      },
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+966502644866",
+        "contactType": "customer service",
+        "areaServed": "SA",
+        "availableLanguage": ["Arabic", "English"]
+      }],
+      "sameAs": ["https://x.com/Rasa20300"]
+    }
+    </script>
+
+    <!-- ====== سكيما الأسئلة الشائعة (تظهر أسئلتكم مباشرة في نتائج قوقل) ====== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "كم تحتاجون من الوقت لتجهيز فعالية؟",
+          "acceptedAnswer": { "@type": "Answer", "text": "يعتمد على حجم الفعالية؛ الفعاليات الصغيرة والمتوسطة نجهزها خلال أيام قليلة، أما المؤتمرات والمهرجانات الكبيرة فنوصي بالتواصل معنا قبل أسبوعين إلى أربعة أسابيع لضمان أفضل تخطيط وتنفيذ." }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تغطون جميع مناطق المملكة؟",
+          "acceptedAnswer": { "@type": "Answer", "text": "نعم، ننفذ خدماتنا في مختلف مدن ومناطق المملكة وفق خطة تشغيل مرنة، وسبق أن نظمنا فعاليات في عدة مناطق." }
+        },
+        {
+          "@type": "Question",
+          "name": "هل توفرون كوادر تنظيمية رجالية ونسائية؟",
+          "acceptedAnswer": { "@type": "Answer", "text": "نعم، لدينا فرق مدربة من الشباب والشابات لتغطية جميع أنواع الفعاليات حسب طبيعة الحدث ومتطلبات الجهة المنظمة." }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف أطلب عرض سعر وكم يستغرق الرد؟",
+          "acceptedAnswer": { "@type": "Answer", "text": "عبر زر «اطلب عرض سعر لفعاليتك» في الموقع أو عبر واتساب مباشرة، وسنتواصل معك خلال 24 ساعة عمل لمناقشة التفاصيل وتقديم عرض مفصل." }
+        },
+        {
+          "@type": "Question",
+          "name": "هل توفرون سيارات فاخرة مع سائقين للضيوف والوفود؟",
+          "acceptedAnswer": { "@type": "Answer", "text": "نعم، نوفر سيارات سيدان فاخرة وسيارات عائلية (SUV) وباصات للوفود مع سائقين محترفين طوال مدة الفعالية، ويمكن إضافتها ضمن طلب عرض السعر." }
+        }
+      ]
+    }
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            /* ===== التعرف التلقائي على نوع الجهاز وحجم الشاشة =====
+               يضيف على <body>:
+               data-device="mobile | tablet | desktop"
+               data-orientation="portrait | landscape"
+               class="touch-device" لأجهزة اللمس
+               ويتحدث تلقائياً عند تدوير الجهاز أو تغيير حجم النافذة */
+            function detectDevice() {
+                const w = window.innerWidth;
+                const type = w < 768 ? 'mobile' : (w < 1024 ? 'tablet' : 'desktop');
+                document.body.setAttribute('data-device', type);
+                document.body.setAttribute('data-orientation',
+                    window.matchMedia('(orientation: portrait)').matches ? 'portrait' : 'landscape');
+                document.body.classList.toggle('touch-device', window.matchMedia('(hover: none)').matches);
+            }
+            detectDevice();
+            window.addEventListener('resize', detectDevice, { passive: true });
+            window.addEventListener('orientationchange', detectDevice);
+
+            /* ===== ظهور العناصر عند التمرير (Fade up) ===== */
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+            /* ===== عناصر يحتاجها معالج التمرير ===== */
+            const navbar = document.querySelector('.navbar');
+            const backToTop = document.getElementById('backToTop');
+            const scrollySection = document.getElementById('scrolly-brand');
+            const giantWord = document.getElementById('giantWord');
+            const slide1 = document.getElementById('slide1');
+            const slide2 = document.getElementById('slide2');
+
+            /* ===== معالج تمرير واحد موحّد مع requestAnimationFrame (أداء أعلى وأنعم على الجوال) ===== */
+            let ticking = false;
+            let navIsScrolled = false;
+            function handleScroll() {
+                const y = window.scrollY;
+
+                // خلفية الشريط العلوي — نغيّر الكلاس فقط عند تجاوز الحد (بدل الكتابة كل إطار)
+                const shouldBeScrolled = y > 50;
+                if (navbar && shouldBeScrolled !== navIsScrolled) {
+                    navIsScrolled = shouldBeScrolled;
+                    navbar.classList.toggle('scrolled', navIsScrolled);
+                }
+
+                // زر العودة للأعلى
+                if (backToTop) {
+                    backToTop.classList.toggle('show', y > 600);
+                }
+
+                // تأثير الكلمة العملاقة ثلاثية الأبعاد + الكروت
+                if (scrollySection && giantWord) {
+                    const rect = scrollySection.getBoundingClientRect();
+
+                    // القسم خارج الشاشة؟ لا نحسب ولا نحرك شي (توفير كبير للمعالج على الجوال)
+                    if (rect.bottom < 0 || rect.top > window.innerHeight) {
+                        ticking = false;
+                        return;
+                    }
+
+                    const sectionHeight = scrollySection.offsetHeight;
+
+                    let scrollPercent = -rect.top / (sectionHeight - window.innerHeight);
+                    scrollPercent = Math.max(0, Math.min(1, scrollPercent));
+
+                    const rotateX = 50 - (scrollPercent * 100); // يدور عمودياً من 50 إلى -50
+                    const rotateY = -15 + (scrollPercent * 30);  // يدور أفقياً من -15 إلى 15
+
+                    let scale = 0.8;
+                    if (scrollPercent <= 0.5) {
+                        scale = 0.8 + (scrollPercent * 0.6); // يكبر من 0.8 إلى 1.1 في نص النزول
+                    } else {
+                        scale = 1.1 - ((scrollPercent - 0.5) * 0.6); // يرجع يصغر لـ 0.8
+                    }
+
+                    giantWord.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(${scale})`;
+
+                    if (scrollPercent < 0.1) {
+                        slide1.classList.remove('active');
+                        slide2.classList.remove('active');
+                    } else if (scrollPercent >= 0.1 && scrollPercent < 0.5) {
+                        slide1.classList.add('active');
+                        slide2.classList.remove('active');
+                    } else if (scrollPercent >= 0.5 && scrollPercent < 0.9) {
+                        slide1.classList.remove('active');
+                        slide2.classList.add('active');
+                    } else {
+                        slide1.classList.remove('active');
+                        slide2.classList.remove('active');
+                    }
+                }
+
+                ticking = false;
+            }
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    window.requestAnimationFrame(handleScroll);
+                    ticking = true;
+                }
+            }, { passive: true });
+            handleScroll(); // تشغيل أولي
+
+            /* ===== تمييز القسم الحالي في القائمة (Scroll Spy) ===== */
+            const spyLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+            const spyMap = {};
+            spyLinks.forEach(link => {
+                const id = link.getAttribute('href').slice(1);
+                if (id) spyMap[id] = link;
+            });
+            const spyTargets = Object.keys(spyMap)
+                .map(id => document.getElementById(id))
+                .filter(Boolean);
+            const spyObserver = new IntersectionObserver((entries) => {
+                entries.forEach(en => {
+                    if (en.isIntersecting) {
+                        spyLinks.forEach(l => l.classList.remove('active'));
+                        const link = spyMap[en.target.id];
+                        if (link) link.classList.add('active');
+                    }
+                });
+            }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+            spyTargets.forEach(t => spyObserver.observe(t));
+
+            /* ===== عدّاد الأرقام المتحرك (Count up) ===== */
+            function animateCount(el) {
+                const target = parseInt(el.getAttribute('data-target'), 10) || 0;
+                const suffix = el.getAttribute('data-suffix') || '';
+                const duration = 1800;
+                const startTime = performance.now();
+                function tick(now) {
+                    const progress = Math.min((now - startTime) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+                    const value = Math.floor(eased * target);
+                    el.textContent = value.toLocaleString('en-US') + suffix;
+                    if (progress < 1) {
+                        requestAnimationFrame(tick);
+                    } else {
+                        el.textContent = target.toLocaleString('en-US') + suffix;
+                    }
+                }
+                requestAnimationFrame(tick);
+            }
+            const counters = document.querySelectorAll('.stat-number');
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(en => {
+                    if (en.isIntersecting) {
+                        animateCount(en.target);
+                        counterObserver.unobserve(en.target);
+                    }
+                });
+            }, { threshold: 0.4 });
+            counters.forEach(c => counterObserver.observe(c));
+
+            /* ===== قائمة الجوال (Hamburger) ===== */
+            const hamburger = document.getElementById('hamburger');
+            const navLinksEl = document.getElementById('navLinks');
+            if (hamburger && navLinksEl) {
+                hamburger.addEventListener('click', () => {
+                    const isOpen = navLinksEl.classList.toggle('open');
+                    hamburger.classList.toggle('open', isOpen);
+                    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                });
+                // إغلاق القائمة عند الضغط على أي رابط
+                navLinksEl.querySelectorAll('a').forEach(a => {
+                    a.addEventListener('click', () => {
+                        navLinksEl.classList.remove('open');
+                        hamburger.classList.remove('open');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+
+            /* ===== تتبع النقر على واتساب في Google Analytics ===== */
+            const waBtn = document.querySelector('.whatsapp-btn');
+            if (waBtn) {
+                waBtn.addEventListener('click', () => {
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'whatsapp_click', { event_category: 'contact', event_label: 'floating_button' });
+                    }
+                });
+            }
+
+            /* ===== زر العودة للأعلى ===== */
+            if (backToTop) {
+                backToTop.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+        });
+
+        function openModal(id) { document.getElementById(id).classList.add('active'); }
+        function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+
+        /* ===== تبديل اللغة (عربي / إنجليزي) ===== */
+        const langBtn = document.getElementById('langToggle');
+        let currentLang = 'ar';
+
+        langBtn.addEventListener('click', () => {
+            currentLang = currentLang === 'ar' ? 'en' : 'ar';
+            const dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+            document.documentElement.lang = currentLang;
+            document.documentElement.dir = dir;
+            document.body.setAttribute('dir', dir); // حتى تعمل تنسيقات body[dir="ltr"]
+            langBtn.textContent = currentLang === 'ar' ? 'English' : 'عربي';
+
+            document.querySelectorAll('[data-ar]').forEach(el => {
+                const value = el.getAttribute(`data-${currentLang}`);
+                if (value === null) return;
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    el.placeholder = value;
+                } else {
+                    // يشمل القوائم المنسدلة (option) والنصوص العادية
+                    el.textContent = value;
+                }
+            });
+
+            // حفظ اللغة المختارة حتى تبقى عند فتح الموقع مرة ثانية
+            try { localStorage.setItem('rassLang', currentLang); } catch (e) {}
+        });
+
+        // استرجاع اللغة المحفوظة من الزيارة السابقة
+        try {
+            if (localStorage.getItem('rassLang') === 'en' && currentLang === 'ar') langBtn.click();
+        } catch (e) {}
+    </script>
+    
+    <script>
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+
+            // فحص مصيدة السبام: لو الحقل المخفي فيه قيمة فهو بوت — نتجاهل الإرسال بصمت
+            const honeypot = document.getElementById('hp_website');
+            if (honeypot && honeypot.value.trim() !== '') {
+                return;
+            }
+            
+            const btn = document.getElementById('submitBtn');
+            const status = document.getElementById('formStatus');
+            btn.textContent = 'جاري الإرسال...';
+            btn.disabled = true;
+
+            const formData = new FormData(this);
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyZhQG_nVKLUUyOmO1ltun1NngzCm7feJuHXHn46Z6gNBxCMngRNITt7QBmvXLKsFHz/exec';
+
+            fetch(scriptURL, { method: 'POST', body: formData })
+                .then(response => {
+                    // تتبع نجاح إرسال طلب عرض السعر في Google Analytics
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'quote_request_submitted', { event_category: 'lead', event_label: 'quote_form' });
+                    }
+                    status.textContent = 'تم إرسال طلبك بنجاح! سنتواصل معك قريباً.';
+                    status.style.display = 'block';
+                    status.style.color = '#25d366';
+                    btn.textContent = 'إرسال الطلب الآن';
+                    btn.disabled = false;
+                    document.getElementById('quoteForm').reset(); 
+                    
+                    setTimeout(() => {
+                        closeModal('quoteModal');
+                        status.style.display = 'none';
+                    }, 4000);
+                })
+                .catch(error => {
+                    status.textContent = 'حدث خطأ، يرجى المحاولة لاحقاً.';
+                    status.style.display = 'block';
+                    status.style.color = '#ff2a46';
+                    btn.textContent = 'إرسال الطلب الآن';
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
